@@ -18,7 +18,6 @@ int Add(string numbers)<br>
 for example “” or “1” or “1,2” as inputs.
 (for an empty string it will return 0) </p>
 Hints:
-——————<br>
 <ul>
   <li>Start with the simplest test case of an empty string and move to one and two numbers
 </li>
