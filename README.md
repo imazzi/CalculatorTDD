@@ -14,29 +14,32 @@ Create a simple String calculator with a method signature:
 ———————————————
 int Add(string numbers)
 ———————————————
-<pre>The method can take up to two numbers, separated by commas, and will return their sum. 
+<p>The method can take up to two numbers, separated by commas, and will return their sum. 
 for example “” or “1” or “1,2” as inputs.
-(for an empty string it will return 0) 
+(for an empty string it will return 0) </p>
 Hints:
 ——————
- - Start with the simplest test case of an empty string and move to one and two numbers
- - Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
- - Remember to refactor after each passing test</pre>
+<ul>
+  <li>Start with the simplest test case of an empty string and move to one and two numbers
+</li>
+  <li>Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+</li>
+  <li>Remember to refactor after each passing test</pre>
+</li>
+</ul>
 ———————————————————————————————
 Allow the Add method to handle an unknown amount of numbers
 ————————————————————————————————
-<pre>Allow the Add method to handle new lines between numbers (instead of commas).
+<p>Allow the Add method to handle new lines between numbers (instead of commas).
 the following input is ok: “1\n2,3” (will equal 6)
-the following input is NOT ok: “1,\n” (not need to prove it - just clarifying)</pre>
+the following input is NOT ok: “1,\n” (not need to prove it - just clarifying)</p>
 ——————————————————————————————-
-<pre>Support different delimiters
+<p>Support different delimiters
 to change a delimiter, the beginning of the string will contain a separate line that looks like this: “//[delimiter]\n[numbers…]” for example “//;\n1;2” should return three where the default delimiter is ‘;’ .
-the first line is optional. all existing scenarios should still be supported</pre>
+the first line is optional. all existing scenarios should still be supported</p>
 ————————————————————————————————
-<pre></pre>
-
-Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was passed. 
-if there are multiple negatives, show all of them in the exception message.
+<p>Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was passed. 
+if there are multiple negatives, show all of them in the exception message.</p>
 ————————————————————————————————
 STOP HERE if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.
 ————————————————————————————————
