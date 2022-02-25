@@ -10,9 +10,9 @@ Make sure you only test for correct inputs. there is no need to test for invalid
 
 <h1>String Calculator</h1>
 
-Create a simple String calculator with a method signature:
+Create a simple String calculator with a method signature:<br>
 ———————————————
-int Add(string numbers)
+int Add(string numbers)<br>
 ———————————————
 <p>The method can take up to two numbers, separated by commas, and will return their sum. 
 for example “” or “1” or “1,2” as inputs.
