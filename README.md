@@ -40,8 +40,8 @@ the first line is optional. all existing scenarios should still be supported</p>
 <p>Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was passed. 
 if there are multiple negatives, show all of them in the exception message.</p>
 ————————————————————————————————<br>
-STOP HERE if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.
-————————————————————————————————
+<mark>STOP HERE if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.</mark>
+————————————————————————————————<br>
 Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2
 ————————————————————————————————<br>
 Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
